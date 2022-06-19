@@ -12,7 +12,7 @@ module.exports = {
 	plugins: ['jest'],
 	extends: ['eslint:recommended', 'plugin:prettier/recommended'],
 	rules: {
-		'comma-dangle': ['never'],
+		'comma-dangle': [0],
 		'prettier/prettier': 'warn'
 	}
 };
