@@ -8,7 +8,9 @@
 /** @type {import('@jest/types').Config.InitialOptions} */
 const config = {
 	verbose: true,
-	forceExit: true
+	forceExit: true,
+	// configuration for jest-extended
+	setupFilesAfterEnv: ['./source/setup.js']
 };
 
 module.exports = config;
